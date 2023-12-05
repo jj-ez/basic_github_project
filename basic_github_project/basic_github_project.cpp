@@ -1,4 +1,4 @@
-#include<iostream>
+l;#include<iostream>
 #include<iomanip>
 #include<cmath>
 
@@ -24,7 +24,7 @@ int main() {
 		fine = 150.00 + (over_speed - 15) * 20.00;
 	}
 
-	cout << " Fine for being " << over_speed << " MPH over the speed limit is $ " << fixed << setprecision() << fine << 
+	cout << " Fine for being " << over_speed << " MPH over the speed limit is $ " << fixed << setprecision() << fine << endl;
 
 	return 0;
 }
